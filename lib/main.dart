@@ -64,9 +64,12 @@ class Home extends StatelessWidget {
             ),
             Text('text8'),
             Text('text9'),
-
           ],
-        )
+        ),
+      floatingActionButton: FloatingActionButton(
+          onPressed: (){print('FloatingActionButton btn click');},
+          child: Icon(Icons.add),
+      )
     );
   }
 
